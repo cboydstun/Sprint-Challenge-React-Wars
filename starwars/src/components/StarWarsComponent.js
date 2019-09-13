@@ -29,5 +29,5 @@ const StarWarsCard = styled(Card)`
 	margin: 15px 1.5% 25px;
 	border-radius: 5px;
     background-color: grey;
-    opacity: 0.9;
+    opacity: 0.85;
 `;

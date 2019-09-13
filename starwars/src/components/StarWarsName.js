@@ -14,5 +14,5 @@ export function StarWarsName(props) {
 }
 
 const TheForce = styled.h1`
-	${(props) => (props.charName !== 'Darth Vader' ? `color: red;` : `color: blue;`)}
+	${(props) => (props.charName !== 'Darth Vader' ? `color: blue;` : `color: red;`)}
 `;
