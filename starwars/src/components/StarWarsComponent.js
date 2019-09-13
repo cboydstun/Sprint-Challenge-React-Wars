@@ -2,6 +2,7 @@ import React from 'react';
 import { StarWarsName } from './StarWarsName';
 import { StarWarsBirthYear } from './StarWarsBirthYear';
 import { StarWarsEyeColor } from './StarWarsEyeColor';
+import { StarWarsHeight } from './StarWarsHeight';
 import { StarWarsMass } from './StarWarsMass';
 import { CardColumns, Card } from 'reactstrap';
 import styled from 'styled-components';
@@ -17,6 +18,7 @@ export function StarWarsComponent(props) {
 						<StarWarsName name={starWarsCharacter.name} key={index + 'n'} />
 						<StarWarsBirthYear birth_year={starWarsCharacter.birth_year} key={index + 'b'} />
 						<StarWarsEyeColor eye_color={starWarsCharacter.eye_color} key={index + 'e'} />
+                        <StarWarsHeight height={starWarsCharacter.height} key={index + 'c'} />
 						<StarWarsMass mass={starWarsCharacter.mass} key={index + 'm'} />
 					</StarWarsCard>
 				);
